@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+
+    <groups>
+        <run>
+            <include name="basic"/>
+        </run>
+    </groups>
+
+    <test name="login">
+        <classes>
+            <class name="com.jessy.testng.suite.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="pay">
+        <classes>
+            <class name="com.jessy.testng.suite.SuiteConfig"/>
+            <class name="com.jessy.testng.suite.PayTest"/>
+        </classes>
+    </test>
+
+    <test name="addToCar">
+        <classes>
+            <class name="com.jessy.testng.suite.SuiteConfig"/>
+            <class name="com.jessy.testng.suite.AddToCar"/>
+        </classes>
+    </test>
+</suite>
+
