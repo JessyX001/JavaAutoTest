@@ -4,3 +4,5 @@ test1111
 合并后保存内容：master新增内容,这是新添加的mergedemo上的内容
 
 version1
+
+version2
